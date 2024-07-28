@@ -1,7 +1,5 @@
 "use client";
 
-
-
 import { supabaseGetPublicUrl } from "@/lib/supabase";
 import Image from "next/image";
 import { ChangeEvent, useEffect, useRef, useState } from "react";
@@ -58,7 +56,7 @@ export default function CustomUpload({ form, name }: CustomUploadProps) {
 				onClick={handleUploadFile}
 			>
 				<svg
-					xmlns="https://www.w3.org/2000/svg"
+					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
 					viewBox="0 0 24 24"
 					strokeWidth={1.5}
