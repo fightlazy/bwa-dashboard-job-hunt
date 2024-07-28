@@ -12,6 +12,8 @@ import prisma from "../../../../lib/prisma";
 
 interface SettingsPageProps {}
 
+export const revalidate = 0;
+
 async function getDetailCompany() {
     const session = await getServerSession(authOptions)
 
